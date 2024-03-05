@@ -323,7 +323,9 @@ class Patterns
     // Main method
     static void Main(string[] args)
     {
-        int n = 6; 
+        Console.WriteLine("enter the number");
+         int n=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine(n);
 
         
         SquareHollowPattern(n);

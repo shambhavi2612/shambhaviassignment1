@@ -298,13 +298,13 @@ class Patterns
     }
 
     // Pascal's Triangle
-    static void PascalsTriangle()
+    static void PascalsTriangle(int n)
     {
-        int N = 4;
-        for (int i = 1; i <= N; i++)
+       
+        for (int i = 1; i <= n; i++)
         {
             int b = 1;
-            for (int j = 0; j <= N - i; j++)
+            for (int j = 0; j <= n - i; j++)
             {
                 Console.Write(" ");
             }
@@ -356,6 +356,6 @@ class Patterns
         Console.WriteLine();
         HollowHourglassPattern(n);
         Console.WriteLine();
-        PascalsTriangle();
+        PascalsTriangle(n);
     }
 }
